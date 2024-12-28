@@ -5,11 +5,13 @@
   "main": "src/index.html",
   "scripts": {
     "cy:open": "cypress open",
-    "test": "cypress run"
+    "test": "cypress run",
+    "cy:open:mobile": "cypress open --config viewportWidth=410,viewportHeight=860",
+    "test:mobile": "cypress run --config viewportWidth=410,viewportHeight=860"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FelipeAlexandre001/cypress-basico-v2.git"
+    "url": "git+https://github.com/wlsf82/cypress-basico-v2.git"
   },
   "keywords": [
     "Testing",
